@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylegame.css">
+    <title>Gamepage</title>
+</head>
+
+<body>
+    <h1>Paper,Rock,Scissors</h1>
+
+    <img src="./img/Paper.png" onmouseover="Big(this)" onmouseout="small(this)" alt="paper" id="paper"
+      data-id="0"  width="150" height="150">
+
+    <img src="./img/Rock.png" onmouseover="Big(this)" onmouseout="small(this)" alt="rock" id="rock"
+    data-id="1" width="150" height="150">
+
+    <img src="./img/Scissors.png" onmouseover="Big(this)" onmouseout="small(this)" alt="scissors"
+        id="scissors" data-id="2" width="150" height="150">
+
+    <div id="computer-result">
+        <img src="./img/Comp.jpg" alt="computer" id="computer-select" width="150" height="150">
+    </div>
+
+    <div id="result"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

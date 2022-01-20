@@ -1,0 +1,27 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h1{ color: #ffb8b8;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 90px;
+}
+h2{text-align: center;
+    font-size: 60px;
+    color: #18dcff;
+}
+#yes{
+    color: #e74c3c;
+    font-size: 100px;
+    margin-left: 400px; 
+   text-decoration: none;
+}
+#no{
+    color: #e74c3c;
+    font-size: 100px;
+    margin-left: 200px;
+    text-decoration: none;
+}
